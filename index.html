@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+	<link rel="manifest" href="/images/site.webmanifest">
+	<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="/images/favicon.ico">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-config" content="/images/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+
+	<title>Peter Hamberg, contact card</title>
+
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+	<style>
+/*!
+ * Start Bootstrap - Resume v5.0.2 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+
+body {
+  font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  padding-top: 54px;
+  color: #868e96;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 17rem;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Saira Extra Condensed', 'Segoe UI', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #343a40;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p.lead {
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 1.5rem;
+}
+
+
+.social-icons span {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: white !important;
+  color: #495057 !important;
+  border-radius: 100%;
+  border: 2px solid #495057;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-right: 1rem;
+}
+
+.social-icons a {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-right: 1rem;
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
+.social-icons a:hover {
+  background-color: #A00;
+}
+
+ #sideNav .navbar-brand .img-profile {
+    max-width: 4rem;
+    max-height: 4rem;
+    border: 0.2rem solid rgba(255, 255, 255, 0.2);
+  }
+@media (min-width: 992px) {
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+  }
+  #sideNav .navbar-brand {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+  }
+  #sideNav .navbar-brand .img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  }
+  #sideNav .navbar-collapse {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+  #sideNav .navbar-collapse .navbar-nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item {
+    display: block;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+  }
+}
+
+.bg-primary {
+  background-color: #343a40 !important;
+}
+section.resume-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 75rem;
+}
+a {
+  color: #A00;
+}
+
+a:hover, a:focus, a:active {
+  color: #700;
+}
+.footer {
+	font-size: 0.8rem;
+}
+	</style>
+
+</head>
+
+<body id="page-top">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+	<a class="navbar-brand js-scroll-trigger" href="#page-top">
+		<span class="d-block d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto" src="/images/profile.png" alt=""></span>
+	</a>
+	<div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
+</nav>
+
+<div class="container-fluid p-0">
+
+	<section class="resume-section p-3 p-lg-5 d-flex d-column">
+		<div class="my-auto">
+			<h1 class="mb-0">Peter Hamberg</h1>
+			<div class="subheading mb-5">Stockholm · Sweden</div>
+
+			<p class="lead">If you want to contact me these are the best methods, in order of preference</p>
+
+			<div class="social-icons mb-5">
+				<a href="https://twitter.com/Zazcallabah"><i class="fab fa-twitter"></i></a>
+				<a href="https://github.com/Zazcallabah"><i class="fab fa-github"></i></a>
+				<a href="https://www.linkedin.com/in/peterhamberg/"><i class="fab fa-linkedin-in"></i></a>
+				<a href="mailto:peter@hamberg.eu"><i class="fas fa-envelope"></i></a>
+				<a href="tel:0708987185"><i class="fas fa-phone"></i></a>
+			</div>
+
+			<p class="lead">You can also find me here</p>
+			<div class="social-icons mb-5">
+				<a href="https://www.instagram.com/zazcallabah/"><i class="fab fa-instagram"></i></a>
+				<a href="https://www.twitch.tv/Zaz___"><i class="fab fa-twitch"></i></a>
+				<a href="https://soundcloud.com/zaz-5"><i class="fab fa-soundcloud"></i></a>
+				<a href="http://svenskmagiskcirkel.se/"><i>♠</i></a>
+				<a href="https://www.youtube.com/user/Zaz3329"><i class="fab fa-youtube"></i></a>
+			</div>
+
+			<p class="lead">I do coding and devops</p>
+			<div class="social-icons mb-1">
+				<a href="https://stackoverflow.com/users/297189/zaz"><i class="fab fa-stack-overflow"></i></a>
+				<a href="https://stackexchange.com/users/112721/zaz"><i class="fab fa-stack-exchange"></i></a>
+				<a href="https://trello.com/peterhamberg"><i class="fab fa-trello"></i></a>
+				<span><i class="fab fa-windows"></i></span>
+				<span><i class="fa fa-cloud"></i></span>
+			</div>
+			<div class="social-icons mb-1">
+				<span><i class="fab fa-git"></i></span>
+				<span><i class="fab fa-github-alt"></i></span>
+				<span><i class="fab fa-slack-hash"></i></span>
+				<span><i class="fab fa-node-js"></i></span>
+				<span><i class="fab fa-npm"></i></span>
+			</div>
+			<div class="social-icons mb-1">
+				<span><i class="fab fa-markdown"></i></span>
+				<span><i class="fab fa-js"></i></span>
+				<span><i class="fab fa-html5"></i></span>
+				<span><i class="fab fa-erlang"></i></span>
+				<span><i class="fab fa-docker"></i></span>
+			</div>
+			<div class="social-icons mb-5">
+				<span><i class="fa fa-coffee"></i></span>
+				<span><i class="fab fa-openid"></i></span>
+				<span><i class="fa fa-code"></i></span>
+				<span><i class="fa fa-bug"></i></span>
+			</div>
+
+			<p class="lead">Sometimes I write about or play video games</p>
+			<div class="social-icons mb-5">
+				<a href="https://zazcallabah.tumblr.com/"><i class="fab fa-tumblr"></i></a>
+				<a href="https://steamcommunity.com/id/zazcallabah"><i class="fab fa-steam-symbol"></i></a>
+				<a href="discord:Zaz#8380"><i class="fab fa-discord"></i></a>
+				<span><i class="fa fa-gamepad"></i></span>
+				<span><i class="fab fa-nintendo-switch"></i></span>
+			</div>
+
+			<p class="lead">About me</p>
+			<div class="social-icons mb-1">
+				<span><i class="fa fa-user-cog"></i></span>
+				<span><i class="fa fa-magic"></i></span>
+				<span><i class="fas fa-music"></i></span>
+				<span><i class="fa fa-camera"></i></span>
+				<span><i class="fa fa-superscript"></i></span>
+			</div>
+			<div class="social-icons mb-1">
+				<span><i class="fa fa-walking"></i></span>
+				<span><i class="fa fa-battery-quarter"></i></span>
+				<span><i class="fa fa-book"></i></span>
+				<span><i class="fa fa-cookie-bite"></i></span>
+				<span><i class="fa fa-terminal"></i></span>
+			</div>
+			<div class="social-icons mb-5">
+				<span><i class="fa fa-fire"></i></span>
+				<span><i class="fab fa-empire"></i></span>
+				<span><i class="fab fa-firefox"></i></span>
+			</div>
+		</div>
+	</section>
+
+	<hr class="m-0">
+
+	<section class="resume-section p-3 p-lg-5 d-flex flex-column footer">
+		<p>Bootstrap theme by <a href="https://startbootstrap.com/template-overviews/resume/">startbootstrap.com</a>, modified by Zaz, released under the <a href="https://opensource.org/licenses/MIT">MIT License</a>.</p>
+	</section>
+	<!-- -->
+
+</div>
+</body>
+</html>
