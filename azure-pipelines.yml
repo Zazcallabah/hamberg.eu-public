@@ -1,0 +1,15 @@
+
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- task: AzureFileCopy@3
+  inputs:
+    SourcePath: '*'
+    azureSubscription: 'Pay-as-you-go(097d6240-61d3-4f86-b107-e43f21fc89f8)'
+    Destination: 'AzureBlob'
+    storage: 'testinggithubdeploy'
+    ContainerName: '$web'
